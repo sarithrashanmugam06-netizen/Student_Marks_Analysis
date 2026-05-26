@@ -4,9 +4,9 @@ df= pd.read_csv(r"D:\Datasets\Student_Marks.csv")
 
 print(df)
 
-
-df.describe()
-df.info()
+#summarise data
+print(df.describe())
+print(df.info())
 
 #Average mark
 average = df["Marks"].mean()
